@@ -6,6 +6,17 @@ table{
     border-collapse: collapse;
     background-color: #a0e4ff;
 }
+
+a:link, a:visited, a:active {
+    text-decoration : none;
+    color           : black;
+}
+
+a:hover {
+    background-color: beige;
+    color           : black;
+}
+
 td:hover {
     background-color: white;
     border: 2px solid black;
@@ -107,5 +118,3 @@ td{
     font-weight: 700;
     font-style: normal;
 }
-  
-  
