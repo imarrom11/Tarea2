@@ -68,3 +68,8 @@ a:hover {
     background-color: beige;
     color           : black;
 }
+
+.imagen{
+    object-fit: scale-down;
+    width: 500px;
+}
