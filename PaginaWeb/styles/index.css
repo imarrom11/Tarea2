@@ -58,3 +58,13 @@ footer {
     color           : white;
     font-size       : 30px;
 }
+
+a:link, a:visited, a:active {
+    text-decoration : none;
+    color           : white;
+}
+
+a:hover {
+    background-color: beige;
+    color           : black;
+}

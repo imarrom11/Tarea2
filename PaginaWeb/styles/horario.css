@@ -1,0 +1,111 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    background-color: #a0e4ff;
+}
+td:hover {
+    background-color: white;
+    border: 2px solid black;
+    color : black;
+    font-style: italic;
+}
+th{
+    border: solid;
+    width: 90vw;
+    height: 10vh;
+    font-family: "Permanent Marker", cursive;
+    font-size: 20px;
+}
+td{
+    border: 2px dotted black;
+    width: 15vw;
+    height: 10vh;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
+}
+
+/*Clases específicas de la tabla*/
+.horario{
+    letter-spacing: 8vw;
+    font-size: 50px;
+}
+.progr{
+    background-color: #36ffc3;
+}
+.badat{
+    background-color: #e1ff36;
+}
+.siinf{
+    background-color: #ff9036;
+}
+.libre{
+    background-color: #ff3636;
+    color: white;
+}
+.lmsgi{
+    background-color: #ff36de;
+    color: white;
+}
+.daspgs{
+    background-color: #5436ff;
+    color: white;
+}
+.sasp{
+    background-color: #2f20ff;
+    color: white;
+}
+.endes{
+    background-color: #3dff36;
+}
+.recreo{
+    background-color: coral;
+    text-align: center;
+    letter-spacing: 8vw;
+    font-size: 50px;
+}
+/*Clases para final de la tabla*/
+.end_row{
+    border-bottom: solid;
+    border-bottom-color: black;
+}
+.end_col{
+    border-right: solid;
+    border-right-color: black;
+}
+/*1º Fuente*/
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+/*2º Fuente*/
+.rajdhani-light {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}  
+.rajdhani-regular {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.rajdhani-medium {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.rajdhani-semibold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.rajdhani-bold {
+    font-family: "Rajdhani", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+  
+  

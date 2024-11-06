@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/horario.css">
+    <!--Fuente Nº1-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!--Fuente Nº2-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <script>
+        var r = 1;
+    </script>
+    <table>
+        <tr>
+            <th class="horario" colspan="6">Horario</th>
+        </tr>
+        <tr>
+            <th>Horas</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miercoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+        <tr>
+            <th>8:15 - 9:15</th>
+            <td class="progr" rowspan="2">PROGR</td>
+            <td class="libre">Libre</td>
+            <td class="endes" rowspan="2">ENDES</td>
+            <td class="progr" rowspan="2">PROGR</td>
+            <td class="badat end_col" rowspan="2">BADAT</td>
+        </tr>
+        <tr>
+            <th>9:15 - 10:15</th>
+            <td class="endes">ENDES</td>
+        </tr>
+        <tr>
+            <th>10:15 - 11:15</th>
+            <td class="badat">BADAT</td>
+            <td class="lmsgi">LMSGI</td>
+            <td class="badat">BADAT</td>
+            <td class="libre">Libre</td>
+            <td class="sasp end_col">SASP</td>
+        </tr>
+        <tr>
+            <th>11:15 - 11:45</th>
+            <td class="recreo end_col" colspan="5">Recreo</td>
+        </tr>
+        <tr>
+            <th>11:45 - 12:45</th>
+            <td class="badat">BADAT</td>
+            <td class="progr" rowspan="3">PROGR</td>
+            <td class="badat">BADAT</td>
+            <td class="lmsgi" rowspan="2">LMSGI</td>
+            <td class="libre end_col">Libre</td>
+        </tr>
+        <tr>
+            <th>12:45 - 13:45</th>
+            <td class="siinf" rowspan="2">SIINF</td>
+            <td class="siinf" rowspan="2">SIINF</td>
+            <td class="siinf end_col">SIINF</td>
+        </tr>
+        <tr class="end_row">
+            <th>13:45 - 14:45</th>
+            <td class="daspgs">DASPGS</td>
+            <td class="progr end_col">PROGR</td>
+        </tr>
+    </table>
+</body>
+</html>
