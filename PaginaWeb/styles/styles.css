@@ -1,0 +1,60 @@
+* {
+    margin  : 0;
+    padding : 0;
+}
+
+body {
+
+}
+
+header {
+    width       : 100vw;
+    height      : 10vh;
+}
+
+.titulo {
+    color       : green;
+    font-size   : 30px;
+}
+
+.subtext {
+    color       :black;
+    font-size   : 14px;
+    padding-left: 1vw;
+}
+
+.principal {
+    width           : 100vw;
+    height          : 80vh;
+}
+
+.navegacion{
+    background-color: green;
+    color           : white;
+    height          : 10vh;
+    display         : flex;
+    align-items     : center;
+    justify-content : baseline;
+}
+
+.navCelda{
+    padding: 1vw;
+}
+
+.cuerpo {
+    padding : 1vh;
+}
+
+footer {
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    width           : 100vw;
+    height          : 10vh;
+    background-color: black;
+}
+
+.pie{
+    color           : white;
+    font-size       : 30px;
+}
